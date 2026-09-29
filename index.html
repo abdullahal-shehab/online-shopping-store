@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>ShopEase - Online Store</title>
+
+<link rel="stylesheet" href="css/style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- Navigation Bar -->
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            ShopEase
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="orders.html">My Orders</a></li>
+
+            <li id="authNav">
+                <a href="login.html">Login</a>
+            </li>
+
+            <li>
+                <a href="admin-login.html">Admin</a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+<!-- Hero Section -->
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Welcome to ShopEase</h1>
+
+        <p>
+            Find the products you need at affordable prices.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PRODUCTS SECTION
+========================== -->
+
+<section class="products-section">
+
+    <h2>Featured Products</h2>
+
+    <p class="products-subtitle">
+        Discover our latest products and shop your favorites.
+    </p>
+
+    <div
+        id="homeProducts"
+        class="product-container">
+
+        <p>Loading products...</p>
+
+    </div>
+
+    <div class="products-more">
+
+        <a href="products.html" class="btn">
+            View All Products
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+<footer>
+
+    <p>
+        © 2026 ShopEase. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="js/supabase.js"></script>
+
+<script src="js/auth.js"></script>
+
+<!-- Home Page Products -->
+<script src="js/home.js"></script>
+```
+
+</body>
+</html>

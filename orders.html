@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>My Orders - ShopEase</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                ShopEase
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="categories.html">
+                        Categories
+                    </a>
+                </li>
+
+                <li>
+                    <a href="products.html">
+                        Products
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cart.html">
+                        Cart
+                    </a>
+                </li>
+
+                <li>
+                    <a href="orders.html">
+                        My Orders
+                    </a>
+                </li>
+
+                <li id="authNav">
+                    <a href="login.html">
+                        Login
+                    </a>
+                </li>
+                <li>
+                <a href="admin-login.html">Admin</a>
+                 </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main class="orders-page">
+
+        <h1>
+            My Orders
+        </h1>
+
+        <div id="checkoutSection">
+
+            <h2>
+                Checkout
+            </h2>
+
+            <div id="checkoutContainer">
+                Loading...
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <h2>
+            Previous Orders
+        </h2>
+
+        <div id="ordersContainer">
+            Loading orders...
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 ShopEase. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script src="js/supabase.js"></script>
+
+    <script src="js/auth.js"></script>
+
+    <script src="js/orders.js"></script>
+
+</body>
+
+</html>
